@@ -1,9 +1,9 @@
 package com.duo.examples.jvm;
 
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-import redis.clients.jedis.JedisPool;
 
 /**
  * @author pythias
@@ -12,6 +12,8 @@ import redis.clients.jedis.JedisPool;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class JedisPoolTests {
-    private JedisPool pool;
+    @Test
+    public void t1() {
 
+    }
 }
